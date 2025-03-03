@@ -78,5 +78,5 @@ shellcheck: test/*.sh
 
 .PHONY: test
 test: openstack-network-exporter
-	sudo bash -x ./test/config_test_environment.sh
+	sudo bash -xe ./test/config_test_environment.sh
 	sudo bash -x ./test/run_tests.sh -r 5

@@ -1,7 +1,5 @@
 # openstack-network-exporter-test
 
-
-
 ## Introduction
 
 Functional testcases for [openstack-network-exporter](https://github.com/openstack-k8s-operators/openstack-network-exporter.git)
